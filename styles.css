@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    font-size: 20px;
+    color: white;
+    margin: 32px auto;
+    font-weight: 700;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+input:focus{
+    color: black
+}
+
+.scrapper {
+    background: linear-gradient(180deg, #000000 0%, #2E54B6 100%);
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    width: 20%;
+    border-radius: 60px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    height: 37px;
+    padding-left: 20px;
+    color: black;
+    font-size: 16px;
+}
+
+input[type="radio"] {
+    width: 100px; 
+    margin-left: 460px ;
+    margin-top: 10px;
+}
+
+label {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.vhod {
+    background-color: #FFD600;
+    width: 22%;
+    margin: 15px auto;
+    border-radius: 20px;
+    height: 37px;
+}
+
+.error__name {
+    color: #FA6F6F;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 40% ;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.error__radio {
+    color: #FA6F6F;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 40% ;
+    margin-top: 10px;
+    height: 20px;
+}
+
+.successful {
+    color: #72FA6F;
+    font-size: 8px;
+    font-weight: 12px;
+    margin: 0 auto;
+}
